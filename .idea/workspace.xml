@@ -1,0 +1,1174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="keepweb3:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4f952b56-c585-47f9-a27f-7ab6ff48aa55" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/keepweb3_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/keep/controller/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/keep/controller/RegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keepweb.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keepweb3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/keepweb3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keep/controller/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keep/controller/IndexServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keep/dao/repository/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keep/dao/repository/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/html/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/keep/controller/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/keep/controller/IndexServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/keep/dao/entities/Note.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/keep/dao/entities/Note.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/keep/dao/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/keep/dao/entities/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/keep/dao/repository/DataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/keep/dao/repository/DataSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/keep/dao/repository/NoteDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/keep/dao/repository/NoteDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/keep/dao/repository/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/keep/dao/repository/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/keep/view/IndexView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/keep/view/IndexView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/html/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/com/keep/controller/IndexServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/com/keep/controller/NoteServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/com/keep/dao/entities/Note.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/com/keep/dao/entities/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/com/keep/dao/repository/DataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/com/keep/dao/repository/NoteDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/com/keep/dao/repository/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/com/keep/view/IndexView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/html/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/html/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/html/index-body.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/html/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/html/test.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/html/user-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/css/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/css/fontawesome-all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/css/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/css/simple-line-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/css/stylish-portfolio.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/Simple-Line-Icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/Simple-Line-Icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/Simple-Line-Icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/Simple-Line-Icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/Simple-Line-Icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-300.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-300.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-300.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-300.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-300.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-300italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-300italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-300italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-300italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-300italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-500.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-500.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-500.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-500.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-500.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-500italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-500italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-500italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-500italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-500italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-700.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-700.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-700.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-700.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-700.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-700italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-700italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-700italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-700italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-700italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/fonts/roboto-v18-latin_cyrillic-ext-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/img/bg-callout.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/img/bg-masthead.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/img/portfolio-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/img/portfolio-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/img/portfolio-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/img/portfolio-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/js/jquery.easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/js/stylish-portfolio.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/classes/rs/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/lib/mysql-connector-java-5.1.46.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/html/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/html/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/html/index-body.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/html/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/html/test.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/html/user-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/css/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/css/fontawesome-all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/css/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/css/simple-line-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/css/stylish-portfolio.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/Simple-Line-Icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/Simple-Line-Icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/Simple-Line-Icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/Simple-Line-Icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/Simple-Line-Icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-300.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-300.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-300.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-300.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-300.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-300italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-300italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-300italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-300italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-300italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-500.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-500.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-500.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-500.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-500.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-500italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-500italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-500italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-500italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-500italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-700.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-700.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-700.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-700.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-700.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-700italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-700italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-700italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-700italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-700italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/fonts/roboto-v18-latin_cyrillic-ext-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/img/bg-callout.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/img/bg-masthead.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/img/portfolio-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/img/portfolio-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/img/portfolio-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/img/portfolio-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/js/jquery.easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/js/stylish-portfolio.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/keepweb3/rs/webfonts/fa-solid-900.woff2" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index-body.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/html/index-body.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="77" column="10" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/keep/controller/IndexServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoteServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/keep/controller/NoteServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/keep/controller/LoginServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/keep/controller/RegisterServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/keep/dao/repository/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/keep/dao/entities/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="78" column="22" lean-forward="true" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/html/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/html/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpServlet.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/javax/servlet/http/HttpServlet.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>portfolio</find>
+      <find>portfolio-4</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/html/error.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/keep/dao/repository/DataSource.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/rs/css/stylish-portfolio.min.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/html/test.css" />
+        <option value="$PROJECT_DIR$/sql.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7550381b-832c-47cb-b4bc-d3733071a7f6/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/keep/view/IndexView.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/html/index.html" />
+        <option value="$PROJECT_DIR$/keepweb3.iml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/html/login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/keep/controller/IndexServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/html/register.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/keep/controller/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/keep/controller/RegisterServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/keep/dao/repository/UserDao.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="keepweb3 Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="3905" />
+    <option name="y" value="1076" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="keepweb3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keepweb2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="keepweb3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keepweb2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="keepweb3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keepweb2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="keepweb3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keepweb2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="keepweb3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keepweb2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="keep" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="keepweb3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keepweb2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="keep" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="keepweb3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keepweb2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="keep" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="keepweb3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keepweb2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="keep" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="keepweb3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keepweb2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="keep" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="keepweb3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keepweb2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="keepweb3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keepweb2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="keepweb3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keepweb2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="rs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="keepweb3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keepweb2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="rs" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/rs" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Unnamed" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.8" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="$USER_HOME$/jdk-10.0.1">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="keepweb3:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+        <file path="$PROJECT_DIR$/src/main/webapp/rs">
+          <settings>
+            <option name="CONTEXT_PATH" value="/rs" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_keepweb3" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="43307" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="keepweb3:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.Unnamed" />
+      <item itemvalue="Tomcat Server.Tomcat" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f952b56-c585-47f9-a27f-7ab6ff48aa55" name="Default" comment="" />
+      <created>1527176759307</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527176759307</updated>
+      <workItem from="1527176762853" duration="24400000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="24400000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="3905" y="1076" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.32984293" />
+      <window_info anchor="right" id="Maven Projects" weight="0.32946378" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info anchor="right" id="Database" weight="0.27860695" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" weight="0.32948583" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="bottom" id="Java Enterprise" weight="0.32984293" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33053514" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32984293" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32984293" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2498618" />
+      <window_info id="Web" side_tool="true" />
+      <window_info id="Learn" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32984293" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.33053514" />
+      <window_info anchor="bottom" id="Database Console" order="1" weight="0.32984293" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32984293" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32948583" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" weight="0.32984293" />
+      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="2" weight="0.32946378" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.2498618" />
+      <window_info id="Learn" order="5" />
+      <window_info anchor="right" id="Database" order="3" weight="0.27860695" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/keep/controller/RegisterServlet.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/about.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/rs/css/animate.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8667" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/rs/img/portfolio-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/rs/img/portfolio-2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/rs/img/portfolio-3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/rs/img/portfolio-4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="das://7550381b-832c-47cb-b4bc-d3733071a7f6/schema/information_schema/view/character_sets">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/keep/controller/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/user-form.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/rs/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/test.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/keep/dao/repository/NoteDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/keep/dao/entities/Note.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7550381b-832c-47cb-b4bc-d3733071a7f6/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/keep/view/IndexView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/keep/dao/repository/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/keepweb3/rs/css/animate.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1470">
+          <caret line="10" column="5253" lean-forward="true" selection-start-line="10" selection-start-column="5253" selection-end-line="10" selection-end-column="5253" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/rs/css/simple-line-icons.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/rs/css/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keepweb.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keepweb3.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/rs/css/stylish-portfolio.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="3105" selection-start-line="4" selection-start-column="3105" selection-end-line="4" selection-end-column="3105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/rs/css/simple-line-icons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/index-body.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="77" column="10" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/keep/controller/NoteServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/keep/controller/IndexServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/javax/servlet/http/HttpServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/keep/controller/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/keep/dao/entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="78" column="22" lean-forward="true" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/keep/controller/RegisterServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/keep/dao/repository/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="artifact" />
+              <type id="javaee-facet-resources" />
+              <type id="library" />
+              <type id="jpa-descriptors" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>keepweb3:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (keepweb3)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>keepweb3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.hamcrest:hamcrest-core:1.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

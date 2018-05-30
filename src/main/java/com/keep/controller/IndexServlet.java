@@ -26,24 +26,6 @@ public class IndexServlet extends HttpServlet {
             case "/about":
                 indView.print(response, "About", indView.readHtmlFile("about"));
                 break;
-            case "/login":
-                UserDao userDao = new UserDao();
-                String username = request.getParameter("username");
-                User user = userDao.findByUsername(username);
-                System.out.println(user);
-                //check whether there is an input from a from
-                if(username != null && username.length() > 0 ){
-                    boolean isLogin = user.loginCheck(username, request.getParameter("password"));
-                    if (! isLogin){
-                        response.sendRedirect("/error");
-                    } else {
-                        response.sendRedirect("/welcome");
-                    }
-                }
-
-                indView.print(response, "Login", indView.readHtmlFile("login"));
-                break;
-
             case "/profile":
                 indView.print(response, "Profile", indView.readHtmlFile("user-form"));
                 break;

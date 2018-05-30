@@ -44,7 +44,7 @@ public class UserDao {
 
     public void saveUser(User user){
         DataSource ds = new DataSource();
-
+        System.out.println("GO!!!");
         String sql;
         if(user.getId() == 0L){
 
@@ -54,6 +54,8 @@ public class UserDao {
             sql = "UPDATE user SET username=?, password=?, name=?, status=?, role=? " +
                     " WHERE id = " + user.getId();
         }
+
+        System.out.println(sql);
 
         try (
                 Connection con = ds.getConnection();
