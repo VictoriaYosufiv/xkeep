@@ -1,6 +1,7 @@
 package com.keep.controller;
 
-import com.keep.model.User;
+import com.keep.dao.entities.User;
+import com.keep.dao.repository.UserDao;
 import com.keep.view.IndexView;
 
 import javax.servlet.ServletException;
@@ -25,8 +26,10 @@ public class IndexServlet extends HttpServlet {
                 indView.print(response, "About", indView.readHtmlFile("about"));
                 break;
             case "/login":
-                User user = new User("igor@lyutak.com", "1122", "Igor");
+                UserDao userDao = new UserDao();
                 String username = request.getParameter("username");
+                User user = userDao.findByUsername(username);
+                System.out.println(user);
                 //check whether there is an input from a from
                 if(username != null && username.length() > 0 ){
                     boolean isLogin = user.loginCheck(username, request.getParameter("password"));
@@ -41,10 +44,10 @@ public class IndexServlet extends HttpServlet {
                 break;
 
             case "/profile":
-                indView.print(response, "Profile", indView.readHtmlFile("about"));
+                indView.print(response, "Profile", indView.readHtmlFile("user-form"));
                 break;
             case "/signup":
-                indView.print(response, "Signup", indView.readHtmlFile("about"));
+                indView.print(response, "Signup", indView.readHtmlFile("user-form"));
                 break;
             case "/welcome":
                 indView.print(response, "Welcome", indView.readHtmlFile("about"));
