@@ -102,6 +102,7 @@ public class User {
                 '}';
     }
 
+    // Навіщо це??????????
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -114,6 +115,7 @@ public class User {
                 Objects.equals(role, user.role);
     }
 
+   // що робить??????????????????77
     @Override
     public int hashCode() {
 

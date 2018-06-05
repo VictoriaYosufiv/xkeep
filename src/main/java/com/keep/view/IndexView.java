@@ -37,24 +37,29 @@ public class IndexView {
         }
         //буде містити вміст файлу
         StringBuilder strb = new StringBuilder();
+
         //формуємо об'єкт, що посилається на наш файл у папкці this.path
         Path file = Paths.get(this.path + filename + ".html");
         Charset charset = Charset.forName("UTF-8");
+
         // br об'єкт що може читати файл
         try(BufferedReader br = Files.newBufferedReader(file, charset)){
             String line = null;
+
             // поки не кінець файлу читаємо по рядку
             //коли кінець файлу br.readLine() == null і умова для
             //продовження циклу перестає виконуватись
             while((line = br.readLine()) != null){
+
                 //зчитує рядок із файлу і добавляє до strb
                 strb.append(line);
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
-        //після циклу strb містить вміст файлу що повертається
-        //що повертається як результата виконання методу
+
+        //після циклу strb містить вміст файлу,
+        //що повертається як результат виконання методу
         return strb.toString();
     }
 
@@ -72,4 +77,6 @@ public class IndexView {
         PrintWriter out = response.getWriter();
         out.println(this.index.replace("###title###", title).replace("###body###", body));
     }
+
+
 }

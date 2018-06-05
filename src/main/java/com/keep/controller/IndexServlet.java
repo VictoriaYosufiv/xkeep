@@ -16,7 +16,7 @@ public class IndexServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     }
-
+// request - запит, response - відповідь, throws - кидає
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         IndexView indView = IndexView.getInstance();
@@ -36,11 +36,11 @@ public class IndexServlet extends HttpServlet {
                     if (! isLogin){
                         response.sendRedirect("/error");
                     } else {
-                        response.sendRedirect("/welcome");
+                        response.sendRedirect("/user-form"); // !!!!!!!!!!!!треба доробити
                     }
                 }
 
-                indView.print(response, "Login", indView.readHtmlFile("login"));
+                indView.print(response, "Login", indView.readHtmlFile("login-body"));
                 break;
 
             case "/profile":
@@ -49,9 +49,9 @@ public class IndexServlet extends HttpServlet {
             case "/signup":
                 indView.print(response, "Signup", indView.readHtmlFile("user-form"));
                 break;
-            case "/welcome":
-                indView.print(response, "Welcome", indView.readHtmlFile("about"));
-                break;
+          case "/welcome":
+           indView.print(response, "Welcome", indView.readHtmlFile("about"));
+            break;
             case "/error":
                 indView.print(response, "Error", indView.readHtmlFile("error"));
                 break;
