@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "LoginServlet", value = {"/login"})
+@WebServlet(name = "LoginServlet", value = {"/login/*"}) //томкату каже коли викликатись
 public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
@@ -22,7 +22,7 @@ public class LoginServlet extends HttpServlet {
         IndexView indView = IndexView.getInstance();
 
         UserDao userDao = new UserDao();
-        String username = request.getParameter("username");
+        String username = request.getParameter("username"); // прочиталось на сервері
         User user = userDao.findByUsername(username);
         System.out.println(user);
         //check whether there is an input from a from
@@ -31,7 +31,7 @@ public class LoginServlet extends HttpServlet {
             if (! isLogin){
                 response.sendRedirect("/error");
             } else {
-                response.sendRedirect("/user-form"); // !!!!!!!!!!!!треба доробити
+                response.sendRedirect("/"); // !!!!!!!!!!!!треба доробити
             }
         }
 

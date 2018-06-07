@@ -12,20 +12,28 @@
                     <label for="exampleInputPassword1">Password</label>
                     <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                 </div>
+
+                <label for="exampleInputStatus">Status</label>
                 <div class="form-group">
-                    <label for="exampleInputName">Email address</label>
-                    <input type="text"  name="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder="Enter email">
-                    <small id="emailHelpName" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <select class="form-control" name="status">
+                <select class="form-control" id="exampleInputStatus" name="status" >
+
                     <option>Default select status</option>
                     <option value="active">active</option>
                     <option value="deleted">deleted</option>
                     <option value="banned">banned</option>
                 </select>
-                <select class="form-control" name="role">
+                </div>
+
+                <label for="exampleInputRole" >Role</label>
+                <div class="form-group">
+                <select class="form-control" id="exampleInputRole" name="role">
                     <option>Default select</option>
+                    <option value="active">admin</option>
+                    <option value="deleted">guest</option>
+                    <option value="banned">moderator</option>
                 </select>
+                </div>
+
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
 

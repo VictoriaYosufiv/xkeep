@@ -79,4 +79,25 @@ public class IndexView {
     }
 
 
+
+
+    /**
+     *  Додаємо по потребі css і javascript файли до
+     *  html
+     * @param view тип вигляду
+     * @return
+     */
+    public String setHTMLResources(String view){
+
+        switch (view){
+            case "index":
+                return this.index.replace("###top-resources###", "")
+                        .replace("###bottom-resources###", "");
+            case "note":
+                return this.index.replace("###top-resources###", "<link rel=\"stylesheet\" href=\"/rs/css/summernote-bs4.css\">")
+                        .replace("###bottom-resources###", "<script src=\"/rs/js/summernote-bs4.js\"></script>");
+        }
+
+        return  null;
+    }
 }
