@@ -12,32 +12,43 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "UserFormServlet", value = {"/user-form"})
+@WebServlet(name = "Signup", value = {"/signup"})
 public class UserFormServlet extends HttpServlet {
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(final HttpServletRequest request, final HttpServletResponse response) throws ServletException, IOException {
+        // витягти поля з параметра реквеста
+
+       // IndexView indView = IndexView.getInstance();
+
+
+    //порівняти чи вже є
+        UserDao userDao = new UserDao();
+        String username = request.getParameter("username");
+        User user = userDao.findByUsername(username);
+        System.out.println(user);
+        //check whether there is an input from a from
+        if (username != null) {
+            response.sendRedirect("/ррр"); // користувач  вже існує ДОРОБИТИ
+        } else {
+            User newUser = new User();
+            userDao.saveUser(newUser);
+
+
+
+
+
+            response.sendRedirect("/"); // !!!!!!!!!!!!треба доробити
+
+        }
+
 
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         IndexView indView = IndexView.getInstance();
 
-        UserDao userDao = new UserDao();
-        String username = request.getParameter("username");
-        User user = userDao.findByUsername(username);
-        System.out.println(user);
-        //check whether there is an input from a from
-        if(username != null && username.length() > 0 ){
-            boolean isLogin = user.loginCheck(username, request.getParameter("password"));
-            if (! isLogin){
-                response.sendRedirect("/error");
-            } else {
-                response.sendRedirect("/user-form"); // !!!!!!!!!!!!треба доробити
-            }
-        }
 
 
-
-        indView.print(response, "Login", indView.readHtmlFile("user-form"));
+        indView.print(response, "Sign-up", indView.readHtmlFile("sign-up"));
     }
 }

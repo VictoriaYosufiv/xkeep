@@ -102,12 +102,12 @@ public class User {
                 '}';
     }
 
-    // Навіщо це??????????
+    // Порівняння двох об’єктів User
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        User user = (User) o;
+        User user = (User) o; //приведення типів
         return id == user.id &&
                 Objects.equals(username, user.username) &&
                 Objects.equals(name, user.name) &&
@@ -115,7 +115,7 @@ public class User {
                 Objects.equals(role, user.role);
     }
 
-   // що робить??????????????????77
+   // Переведення об1єкта в число
     @Override
     public int hashCode() {
 

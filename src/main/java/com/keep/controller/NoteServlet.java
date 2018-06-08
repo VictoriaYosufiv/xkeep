@@ -17,6 +17,6 @@ public class NoteServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         IndexView indView = IndexView.getInstance();
-        indView.print(response, "Note", indView.readHtmlFile("about"));
+        indView.print(response, "Note", indView.readHtmlFile("note-body"));
     }
 }
