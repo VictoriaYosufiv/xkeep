@@ -16,11 +16,10 @@ public class IndexServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     }
-
+// request - запит, response - відповідь, throws - кидає
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         IndexView indView = IndexView.getInstance();
-        String indexHtml = indView.setHTMLResources("index");
 
         switch (request.getPathInfo()){
             case "/about":

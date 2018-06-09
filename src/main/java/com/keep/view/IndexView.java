@@ -1,5 +1,7 @@
 package com.keep.view;
 
+import com.keep.dao.entities.Note;
+
 import javax.servlet.http.HttpServletResponse;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,6 +10,7 @@ import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.List;
 
 /**
  * Create Html for index page
@@ -37,24 +40,29 @@ public class IndexView {
         }
         //буде містити вміст файлу
         StringBuilder strb = new StringBuilder();
+
         //формуємо об'єкт, що посилається на наш файл у папкці this.path
         Path file = Paths.get(this.path + filename + ".html");
         Charset charset = Charset.forName("UTF-8");
+
         // br об'єкт що може читати файл
         try(BufferedReader br = Files.newBufferedReader(file, charset)){
             String line = null;
+
             // поки не кінець файлу читаємо по рядку
             //коли кінець файлу br.readLine() == null і умова для
             //продовження циклу перестає виконуватись
             while((line = br.readLine()) != null){
+
                 //зчитує рядок із файлу і добавляє до strb
                 strb.append(line);
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
-        //після циклу strb містить вміст файлу що повертається
-        //що повертається як результата виконання методу
+
+        //після циклу strb містить вміст файлу,
+        //що повертається як результат виконання методу
         return strb.toString();
     }
 
@@ -67,23 +75,44 @@ public class IndexView {
         this.index = readHtmlFile("index");
     }
 
-    public  void print(HttpServletResponse response, String title, String body) throws IOException {
+    public void print(HttpServletResponse response, String title, String body) throws IOException {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         out.println(this.index.replace("###title###", title).replace("###body###", body));
     }
 
-    public String setHTMLResources (String view) {
-        switch (view){
-            case "index" :
-                this.index = this.index.replace("###top-resources###", "")
-                        .replace("###bottom-resources###", "<link rel=\"stylesheet\" href=\"/rs/css/stylish-portfolio.min.css\">");
+    public void printNote(HttpServletResponse response, String title, String body, List<Note> list) throws IOException {
+        response.setContentType("text/html;charset=UTF-8");
+        PrintWriter out = response.getWriter();
 
-                return this.index;
-            case "note":
-                return this.index.replace("###top-resources###", "")
-                        .replace("###bottom-resources###", "<link rel=\"stylesheet\" href=\"/rs/css/stylish-portfolio.min.css\">");
+
+        String table = "";
+
+        for(Note temp : list) {
+            table += "<tr><td>" + temp.getId() + "</td><td>" + temp.getTitle() + "</td><td>" + temp.getNote() + "</td></tr>";
         }
-        return null;
+;
+        out.println(this.index.replace("###title###", title).replace("###body###", body).replace("###TableList###", table));
+    }
+
+
+    /**
+     *  Додаємо по потребі css і javascript файли до
+     *  html
+     * @param view тип вигляду
+     * @return
+     */
+    public String setHTMLResources(String view){
+
+        switch (view){
+            case "index":
+                return this.index.replace("###top-resources###", "")
+                        .replace("###bottom-resources###", "");
+            case "note":
+                return this.index.replace("###top-resources###", "<link rel=\"stylesheet\" href=\"/rs/css/summernote-bs4.css\">")
+                        .replace("###bottom-resources###", "<script src=\"/rs/js/summernote-bs4.js\"></script>");
+        }
+
+        return  null;
     }
 }

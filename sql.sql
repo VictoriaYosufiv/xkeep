@@ -23,12 +23,37 @@ CREATE TABLE note
 );
 ALTER TABLE note COMMENT = 'notes of users';
 
-INSERT INTO xkeep3.user
-(id, username, password, name, status, role)
-VALUES (1, 'igor@lyutak.com', '1122', 'Igor', 'active', 'admin');
+create table sharedNotes
+(
+	id int auto_increment primary key,
+	user_id int not null,
+	note_id int not null,
+	constraint sharedNotes_user_id_fk
+		foreign key (user_id) references user (id)
+			on update cascade on delete cascade,
+	constraint sharedNotes_note_id_fk
+		foreign key (note_id) references note (id)
+			on update cascade on delete cascade
+)
+engine=InnoDB
+;
 
-INSERT INTO xkeep3.note
+create index sharedNotes_note_id_fk
+	on sharedNotes (note_id)
+;
+
+create index sharedNotes_user_id_fk
+	on sharedNotes (user_id)
+;
+
+
+INSERT INTO keep.user
+(id, username, password, name, status, role)
+VALUES (1, 'test@mail.com', '1122', 'Test', 'active', 'admin');
+
+INSERT INTO keep.note
 (note, user_id, createdDate, title)
 VALUES ('test text', 1, '2018-05-19:12:12:12', 'Test');
 
-SELECT * FROm xkeep3.user
+INSERT INTO keep.sharedNotes
+(id, user_id, note_id) VALUES (1, 1, 1);
