@@ -15,7 +15,7 @@ import java.util.List;
  */
 public class NoteDao {
 
-    public Note[] getNotesByUserID(long userid){
+    public List<Note> getNotesByUserID(long userid){
         DataSource ds = new DataSource();
         try (
                 Connection con = ds.getConnection();
@@ -36,7 +36,7 @@ public class NoteDao {
                 notes.add(nt);
             }
 
-            return (Note[]) notes.toArray();
+            return notes;
 
         } catch(SQLException e){
             e.printStackTrace();

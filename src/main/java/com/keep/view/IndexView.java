@@ -1,5 +1,7 @@
 package com.keep.view;
 
+import com.keep.dao.entities.Note;
+
 import javax.servlet.http.HttpServletResponse;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,6 +10,7 @@ import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.List;
 
 /**
  * Create Html for index page
@@ -78,7 +81,19 @@ public class IndexView {
         out.println(this.index.replace("###title###", title).replace("###body###", body));
     }
 
+    public void printNote(HttpServletResponse response, String title, String body, List<Note> list) throws IOException {
+        response.setContentType("text/html;charset=UTF-8");
+        PrintWriter out = response.getWriter();
 
+
+        String table = "";
+
+        for(Note temp : list) {
+            table += "<tr><td>" + temp.getId() + "</td><td>" + temp.getTitle() + "</td><td>" + temp.getNote() + "</td></tr>";
+        }
+;
+        out.println(this.index.replace("###title###", title).replace("###body###", body).replace("###TableList###", table));
+    }
 
 
     /**

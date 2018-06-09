@@ -49,7 +49,7 @@ public class LoginServlet extends HttpServlet {
                     response.sendRedirect("/login");
 
                 } else {
-                    response.sendRedirect("/welcome-body"); // !!!!!!!!!!!!треба доробити
+                    response.sendRedirect("/note"); // !!!!!!!!!!!!треба доробити
                 System.out.println(user);                                }
             }
         }
