@@ -14,6 +14,7 @@ public class User {
     private String status;
     private String role;
 
+     //Конструктори
     public User(long id, String username, String password, String name, String status, String role) {
         this.id = id;
         this.username = username;
@@ -25,6 +26,8 @@ public class User {
 
     public User() {
     }
+
+     // Getters and Setters
 
     public long getId() {
         return id;
