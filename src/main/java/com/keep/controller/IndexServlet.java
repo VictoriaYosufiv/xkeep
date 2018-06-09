@@ -26,19 +26,6 @@ public class IndexServlet extends HttpServlet {
                 indView.print(response, "About", indView.readHtmlFile("about"));
                 break;
             case "/login":
-                UserDao userDao = new UserDao();
-                String username = request.getParameter("username");
-                User user = userDao.findByUsername(username);
-                System.out.println(user);
-                //check whether there is an input from a from
-                if(username != null && username.length() > 0 ){
-                    boolean isLogin = user.loginCheck(username, request.getParameter("password"));
-                    if (! isLogin){
-                        response.sendRedirect("/error");
-                    } else {
-                        response.sendRedirect("/user-form"); // !!!!!!!!!!!!треба доробити
-                    }
-                }
 
                 indView.print(response, "Login", indView.readHtmlFile("login-body"));
                 break;
@@ -50,8 +37,9 @@ public class IndexServlet extends HttpServlet {
                 indView.print(response, "Signup", indView.readHtmlFile("sign-up"));
                 break;
           case "/welcome":
-           indView.print(response, "Welcome", indView.readHtmlFile("about"));
+              indView.print(response, "Welcome", indView.readHtmlFile("about"));
             break;
+
             case "/error":
                 indView.print(response, "Error", indView.readHtmlFile("error"));
                 break;

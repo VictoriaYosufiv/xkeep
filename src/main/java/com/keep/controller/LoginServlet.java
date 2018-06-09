@@ -16,27 +16,45 @@ import java.io.IOException;
 public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
+
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         IndexView indView = IndexView.getInstance();
+        indView.print(response, "Login", indView.readHtmlFile("login-body"));
+
 
         UserDao userDao = new UserDao();
         String username = request.getParameter("username"); // прочиталось на сервері
+
         User user = userDao.findByUsername(username);
         System.out.println(user);
-        //check whether there is an input from a from
-        if(username != null && username.length() > 0 ){
-            boolean isLogin = user.loginCheck(username, request.getParameter("password"));
-            if (! isLogin){
-                response.sendRedirect("/error");
+
+        if (user == null && username.length() > 0) {
+            System.out.println("Такого користувача немає, ЗАРЕЄСТРУЙТЕСЬ");
+            response.sendRedirect("/sign-up");
+
+        } else {
+
+            //check whether there is an input from a from
+            boolean isEshos = (username != null && username.length() > 0);
+
+            if (!isEshos) {
+                System.out.println("Введіть логін та пароль");
+
             } else {
-                response.sendRedirect("/note"); // !!!!!!!!!!!!треба доробити
+                boolean isLogin = user.loginCheck(username, request.getParameter("password"));
+                if (!isLogin) {
+                    System.out.println("не правильний пароль");
+                    response.sendRedirect("/login");
+
+                } else {
+                    response.sendRedirect("/welcome-body"); // !!!!!!!!!!!!треба доробити
+                System.out.println(user);                                }
             }
         }
-
-
-
-        indView.print(response, "Login", indView.readHtmlFile("login-body"));
     }
-}
+
+
+
+    }
