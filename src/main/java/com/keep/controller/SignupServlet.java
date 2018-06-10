@@ -21,7 +21,6 @@ public class SignupServlet extends HttpServlet {
         // IndexView indView = IndexView.getInstance();
 
        // витягти поля з параметра реквеста
-
         UserDao userDao = new UserDao();
         String username = request.getParameter("username");
 
@@ -31,31 +30,34 @@ public class SignupServlet extends HttpServlet {
         String status = request.getParameter("status");
         String role = request.getParameter("role");
 
+        System.out.println(username);
         //порівняти чи вже є
         User user = userDao.findByUsername(username);
 
 
-        System.out.println(username);
+        System.out.println(user);
         //check whether there is an input from a from
         //if(user != null) {
         //            response.sendRedirect("/error1");
         //        } else if(password.length() < 6 || !password.equals(confirm_password)) {
         //            response.sendRedirect("/error2");
 
-          if (username != null) {
+        if (user != null) {
             response.sendRedirect("/login"); // користувач  вже існує
         } else {
-        User newUser = new User();
-      newUser.setUsername(username);
+            User newUser = new User();
+            newUser.setUsername(username);
             newUser.setPassword(password);
-          newUser.setName(name);
-        newUser.setStatus("status");
-      newUser.setRole("role");
+            newUser.setName(name);
+            newUser.setStatus(status);
+            newUser.setRole(role);
 
-        userDao.saveUser(newUser);
-        System.out.println(newUser);
 
-        response.sendRedirect("/login");
+
+            userDao.saveUser(newUser);
+            System.out.println(newUser);
+
+            response.sendRedirect("/login");
 
         }
 
@@ -69,6 +71,7 @@ public class SignupServlet extends HttpServlet {
         //UserDao userDao = new UserDao();
 
         //String username = request.getParameter("username"); // прочиталось на сервері
+
 
 
 
