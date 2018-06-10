@@ -22,19 +22,28 @@ public class LoginServlet extends HttpServlet {
         String username = request.getParameter("username");
         User user = userDao.findByUsername(username);
 
-        //check whether there is an input from a from
+        //check whether there is an input from a form
         if(username != null && username.length() > 0 ){
             boolean isLogin = user.loginCheck(username, request.getParameter("password"));
             if (! isLogin){
                 response.sendRedirect("/error");
             } else {
                 String userId = String.valueOf(user.getId());
+
+                // cookies functionality
+                // once user gets verified a cookie uploads to user's computer
+                // subsequently, every time user tries to access /note page
+                // servlet looks for the user id in the cookie
+                // and displays only notes related to the user with the user id saved in the cookie
+
                 Cookie cookie = new Cookie("user_id", userId);
                 response.addCookie(cookie);
                 response.sendRedirect("/note");
             }
         }
 
+
+        //draft. left it dhere as it doesn't provide any functionality yet, however make sense
 
 //        if (user == null && username.length() > 0) {
 //            System.out.println("Такого користувача немає, ЗАРЕЄСТРУЙТЕСЬ");
