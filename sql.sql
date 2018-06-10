@@ -1,4 +1,4 @@
-create table user
+reate table user
 (
 	id int auto_increment
 		primary key,
@@ -49,7 +49,7 @@ create index sharedNotes_user_id_fk
 
 INSERT INTO keep.user
 (id, username, password, name, status, role)
-VALUES (1, 'test@mail.com', '1122', 'Test', 'active', 'admin');
+VALUES (1, 'igor@lyutak.com', '1122', 'Igor', 'active', 'admin');
 
 INSERT INTO keep.note
 (note, user_id, createdDate, title)

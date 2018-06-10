@@ -2,13 +2,13 @@
     <div class="row justify-content-center">
         <div class="col-6">
 
-            <form action="/user-form" method="get" >
-                <div class="form-group">
+            <form action="/sign-up" method="post" >
+                <div class="form-group" metod="post">
                     <label for="Email">Email address</label>
                     <input type="email"  name="username" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Enter email">
                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                 </div>
-                <div class="form-group">
+                <div class="form-group" method="post">
                     <label for="Password">Password</label>
                     <input type="password" name="password" class="form-control" id="Password" placeholder="Password">
                 </div>
@@ -19,10 +19,14 @@
                         <input type="text" name="confirm_password" class="form-control" id="confirm_password" placeholder="Confirmation password">
                     </div>
                 </div-->
+                <div class="form-group" method="post">
+                    <label for="Name">Name</label>
+                    <input type="name" name="name" class="form-control" id="Name" placeholder="Name">
+                </div>
 
-                <label for="Status">Status</label>
-                <div class="form-group">
-                <select class="form-control" id="Status" name="status" >
+                <label for="Status" >Status</label>
+                <div class="form-group" >
+                <select class="form-control" id="Status" name="status" metod="post" >
 
                     <option>Default select status</option>
                     <option value="active">active</option>
@@ -33,7 +37,7 @@
 
                 <label for="Role" >Role</label>
                 <div class="form-group">
-                <select class="form-control" id="Role" name="role">
+                <select class="form-control" id="Role" name="role" method="post">
                     <option>Default select</option>
                     <option value="admin">admin</option>
                     <option value="guest">guest</option>
@@ -41,7 +45,7 @@
                 </select>
                 </div>
 
-                <button type="submit" class="btn btn-primary" >Submit</button>
+                <button type="submit" class="btn btn-primary" method="post">Submit</button>
             </form>
 
         </div>
