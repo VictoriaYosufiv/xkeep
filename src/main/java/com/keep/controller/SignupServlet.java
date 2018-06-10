@@ -16,12 +16,12 @@ import java.io.IOException;
 public class SignupServlet extends HttpServlet {
 
     protected void doPost(final HttpServletRequest request, final HttpServletResponse response) throws ServletException, IOException {
-        // витягти поля з параметра реквеста
+
 
         // IndexView indView = IndexView.getInstance();
 
+       // витягти поля з параметра реквеста
 
-        //порівняти чи вже є
         UserDao userDao = new UserDao();
         String username = request.getParameter("username");
 
@@ -31,6 +31,7 @@ public class SignupServlet extends HttpServlet {
         String status = request.getParameter("status");
         String role = request.getParameter("role");
 
+        //порівняти чи вже є
         User user = userDao.findByUsername(username);
 
 
@@ -42,19 +43,19 @@ public class SignupServlet extends HttpServlet {
         //            response.sendRedirect("/error2");
 
           if (username != null) {
-            response.sendRedirect("/login"); // користувач  вже існує ДОРОБИТИ
+            response.sendRedirect("/login"); // користувач  вже існує
         } else {
         User newUser = new User();
-        newUser.setUsername(username);
-              newUser.setPassword(password);
-              newUser.setName(name);
-              newUser.setStatus(status);
-              newUser.setRole(role);
+      newUser.setUsername(username);
+            newUser.setPassword(password);
+          newUser.setName(name);
+        newUser.setStatus("status");
+      newUser.setRole("role");
 
         userDao.saveUser(newUser);
         System.out.println(newUser);
 
-        response.sendRedirect("/"); // !!!!!!!!!!!!треба доробити
+        response.sendRedirect("/login");
 
         }
 

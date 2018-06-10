@@ -32,7 +32,7 @@ public class LoginServlet extends HttpServlet {
 
         if (user == null && username.length() > 0) {
             System.out.println("Такого користувача немає, ЗАРЕЄСТРУЙТЕСЬ");
-            response.sendRedirect("/sign-up");
+            response.sendRedirect("/signup");
 
         } else {
 
