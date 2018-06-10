@@ -25,19 +25,23 @@ public class IndexServlet extends HttpServlet {
             case "/about":
                 indView.print(response, "About", indView.readHtmlFile("about"));
                 break;
+            case "/login":
+
+                indView.print(response, "Login", indView.readHtmlFile("login-body"));
+                break;
+
             case "/profile":
                 indView.print(response, "Profile", indView.readHtmlFile("sign-up"));
                 break;
             case "/signup":
                 indView.print(response, "Sign-up", indView.readHtmlFile("sign-up"));
                 break;
-            case "/welcome":
-                indView.print(response, "Welcome", indView.readHtmlFile("about"));
-                break;
+
             case "/error":
                 indView.print(response, "Error", indView.readHtmlFile("error"));
                 break;
-            case "/":
+
+                case "/":
                 indView.print(response, "Keep", indView.readHtmlFile("index-body"));
                 break;
         }

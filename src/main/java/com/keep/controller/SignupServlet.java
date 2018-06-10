@@ -37,6 +37,11 @@ public class SignupServlet extends HttpServlet {
 
         System.out.println(username);
         //check whether there is an input from a from
+        //if(user != null) {
+        //            response.sendRedirect("/error1");
+        //        } else if(password.length() < 6 || !password.equals(confirm_password)) {
+        //            response.sendRedirect("/error2");
+
           if (username != null) {
             response.sendRedirect("/login"); // користувач  вже існує
         } else {

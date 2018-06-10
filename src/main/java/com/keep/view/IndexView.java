@@ -75,7 +75,7 @@ public class IndexView {
         this.index = readHtmlFile("index");
     }
 
-    public void print(HttpServletResponse response, String title, String body) throws IOException {
+    public  void print(HttpServletResponse response, String title, String body) throws IOException {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         out.println(this.index.replace("###title###", title).replace("###body###", body));
@@ -88,13 +88,24 @@ public class IndexView {
 
         String table = "";
 
-        for(Note temp : list) {
-            table += "<tr><td>" + temp.getId() + "</td><td>" + temp.getTitle() + "</td><td>" + temp.getNote() + "</td></tr>";
+        if(list != null) {
+            for (Note temp : list) {
+                table += "<tr><td>" + temp.getTitle() + "</td><td>" + temp.getNote() + "</td><td>";
+                table += "<a href='/note/edit/" + temp.getId() + "' class='btn btn-primary'>Edit</a> ";
+                table += "<a href='/note/delete/" + temp.getId() + "' class='btn btn-danger'>Delete</a></td></tr>";
+            }
         }
-;
+
         out.println(this.index.replace("###title###", title).replace("###body###", body).replace("###TableList###", table));
     }
 
+    public void printEditNote(HttpServletResponse response, String title, String body, Note note) throws IOException {
+        response.setContentType("text/html;charset=UTF-8");
+        PrintWriter out = response.getWriter();
+
+        out.println(this.index.replace("###title###", title).replace("###body###", body)
+                .replace("###NoteTitle###", note.getTitle()).replace("###Note###", note.getNote()));
+    }
 
     /**
      *  Додаємо по потребі css і javascript файли до
