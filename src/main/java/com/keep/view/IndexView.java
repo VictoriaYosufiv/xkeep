@@ -75,18 +75,22 @@ public class IndexView {
         this.index = readHtmlFile("index");
     }
 
-    public  void print(HttpServletResponse response, String title, String body) throws IOException {
+    public void print(HttpServletResponse response, String title, String body) throws IOException {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         out.println(this.index.replace("###title###", title).replace("###body###", body));
+    }
+    public void printresources(HttpServletResponse response, String title, String body, String top) throws IOException {
+        response.setContentType("text/html;charset=UTF-8");
+        PrintWriter out = response.getWriter();
+        out.println(this.index.replace("###title###", title).replace("###body###", body).replace("###top-resources###", top));
     }
 
     public void printNote(HttpServletResponse response, String title, String body, List<Note> list) throws IOException {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
 
-
-        String table = "";
+                String table = "";
 
         for(Note temp : list) {
             table += "<tr><td>" + temp.getId() + "</td><td>" + temp.getTitle() + "</td><td>" + temp.getNote() + "</td></tr>";
@@ -96,21 +100,28 @@ public class IndexView {
     }
 
 
+
     /**
      *  Додаємо по потребі css і javascript файли до
      *  html
      * @param view тип вигляду
      * @return
      */
+
+
     public String setHTMLResources(String view){
 
         switch (view){
             case "index":
-                return this.index.replace("###top-resources###", "")
+                return this.index.replace("###top-resources###", "<link rel=\"stylesheet\" href=\"/rs/css/summernote-bs4.css\">")
                         .replace("###bottom-resources###", "");
             case "note":
                 return this.index.replace("###top-resources###", "<link rel=\"stylesheet\" href=\"/rs/css/summernote-bs4.css\">")
                         .replace("###bottom-resources###", "<script src=\"/rs/js/summernote-bs4.js\"></script>");
+            case "profile":
+                return this.index.replace("###top-resources###", "top-resources")
+                        .replace("###bottom-resources###", "");
+
         }
 
         return  null;

@@ -41,25 +41,30 @@ public class UserDao {
 
         return null;
     }
-
-    public void saveUser(User user){
+    /**
+     * Зберегти користувача в БД
+     * @param user об'єкт зроблений на основі форми реєстрації, якщо user.id == 0,
+     *             інакше якщо user.id > 0, оновити поля існуючого користувача
+     */
+    public void saveUser(User user) {
         DataSource ds = new DataSource();
 
-        String sql;
+       String sql;
+       long idd = user.getId();
+      //  if(user == null && user.getId() == 0L){
+        //if(user.getId() == null || user.getId() == 0L)
         if(user.getId() == 0L){
-
-            sql = "INSERT INTO user (username, password, name, status, role)  " +
-                    "VALUES (?, ?, ?, ?, ?)";
+            sql = "INSERT INTO user (username, password, name, status, role) VALUES (?, ?, ?, ?, ?)";
         } else {
-            sql = "UPDATE user SET username=?, password=?, name=?, status=?, role=? " +
-                    " WHERE id = " + user.getId();
+            sql = "UPDATE user SET username=?, password=?, name=?, status=?, role=? WHERE id = '" + user.getId()+ "'";
+            System.out.println(user);
         }
 
         try (
                 Connection con = ds.getConnection();
                 PreparedStatement stmt = con.prepareStatement(sql);
         ){
-                stmt.setString(1, user.getUsername());
+            stmt.setString(1, user.getUsername());
             stmt.setString(2, user.getPassword());
             stmt.setString(3, user.getName());
             stmt.setString(4, user.getStatus());
@@ -69,5 +74,6 @@ public class UserDao {
         } catch(SQLException e){
         e.printStackTrace();
     }
+
     }
 }

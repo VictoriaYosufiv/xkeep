@@ -14,6 +14,8 @@ import java.io.IOException;
 
 @WebServlet(name = "LoginServlet", value = {"/login/*"}) //томкату каже коли викликатись
 public class LoginServlet extends HttpServlet {
+
+
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 
@@ -46,10 +48,11 @@ public class LoginServlet extends HttpServlet {
                 boolean isLogin = user.loginCheck(username, request.getParameter("password"));
                 if (!isLogin) {
                     System.out.println("не правильний пароль");
-                    response.sendRedirect("/login");
 
+                    response.sendRedirect("/login");
+                  //  request.setAttribute("no password", password);
                 } else {
-                    response.sendRedirect("/note"); // !!!!!!!!!!!!треба доробити
+                    response.sendRedirect("/profile"); //
                 System.out.println(user);                                }
             }
         }

@@ -25,14 +25,14 @@ public class User {
         this.role = role;
     }
     //не знаю чи треба??????
-     public User(String username, String password, String name, String status, String role) {
-         this.id = 0L;
-         this.username = username;
-         this.password = password;
-         this.name = name;
-         this.status = status;
-         this.role = role;
-     }
+     //public User(String username, String password, String name, String status, String role) {
+       //  this.id = 0L;
+         //this.username = username;
+         //this.password = password;
+         //this.name = name;
+         //this.status = status;
+         //this.role = role;
+     //}
     public User() {
     }
 

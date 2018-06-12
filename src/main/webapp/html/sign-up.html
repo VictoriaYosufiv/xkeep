@@ -2,13 +2,13 @@
     <div class="row justify-content-center">
         <div class="col-6">
 
-            <form action="/sign-up" method="post" >
-                <div class="form-group" metod="post">
+            <form action="/sign-up" method="post">
+                <div class="form-group">
                     <label for="Email">Email address</label>
                     <input type="email"  name="username" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Enter email">
                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                 </div>
-                <div class="form-group" method="post">
+                <div class="form-group">
                     <label for="Password">Password</label>
                     <input type="password" name="password" class="form-control" id="Password" placeholder="Password">
                 </div>
@@ -19,33 +19,32 @@
                         <input type="text" name="confirm_password" class="form-control" id="confirm_password" placeholder="Confirmation password">
                     </div>
                 </div-->
-                <div class="form-group" method="post">
+                <div class="form-group">
                     <label for="Name">Name</label>
                     <input type="name" name="name" class="form-control" id="Name" placeholder="Name">
                 </div>
 
                 <label for="Status" >Status</label>
                 <div class="form-group" >
-                <select class="form-control" id="Status" name="status" metod="post" >
+                    <select class="form-control" id="Status" name="status">
 
-                    <option>Default select status</option>
-                    <option value="active">active</option>
-                    <option value="deleted">deleted</option>
-                    <option value="banned">banned</option>
-                </select>
+                        <option>Default select status</option>
+                        <option value="active">active</option>
+                        <option value="deleted">deleted</option>
+                        <option value="banned">banned</option>
+                    </select>
                 </div>
 
                 <label for="Role" >Role</label>
                 <div class="form-group">
-                <select class="form-control" id="Role" name="role" method="post">
-                    <option>Default select</option>
-                    <option value="admin">admin</option>
-                    <option value="guest">guest</option>
-                    <option value="moderator">moderator</option>
-                </select>
+                    <select class="form-control" id="Role" name="role">
+                        <option>Default select</option>
+                        <option value="admin">admin</option>
+                        <option value="user">user</option>
+                    </select>
                 </div>
 
-                <button type="submit" class="btn btn-primary" method="post">Submit</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
             </form>
 
         </div>

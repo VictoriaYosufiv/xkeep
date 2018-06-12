@@ -1,4 +1,4 @@
-reate table user
+create table user
 (
 	id int auto_increment
 		primary key,
@@ -9,6 +9,7 @@ reate table user
 	role enum('admin', 'user') default 'user' null,
 	constraint user_username_uindex
 		unique (username)
+		unique (id)
 )
 comment 'users for notes' engine=InnoDB;
 
