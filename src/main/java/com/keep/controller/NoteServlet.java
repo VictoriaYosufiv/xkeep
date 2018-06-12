@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet(name = "NoteServlet", value = {"/note/*"})
+@WebServlet(name = "NoteServlet", value = {"/note"})
 public class NoteServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
